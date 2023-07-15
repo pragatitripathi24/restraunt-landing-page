@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;  
+}
+html {
+    font-size: 70%;
+}
+body {
+    background: rgb(82, 4, 4);
+    
+    margin: 0;
+}
+header {
+    margin: 0px;
+   
+}
+a {
+    text-decoration: none;
+    color: #2715cd;
+}
+ul {
+    list-style: none;
+}
+section {
+    padding: 2rem 9%;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    color: black;
+    height: 65px;
+    padding: 1em;
+    font-size: 25px;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu>li {
+    margin: 0 1rem;
+    overflow: hidden;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.home .content {
+    flex: 1 1 40rem;
+    padding-top: 6.5rem;
+}
+
+.home .image {
+    flex: 1 1 30rem;
+}
+
+.home .image img {
+    width: 90%;
+    height: 90%;
+    padding: 1rem;
+    animation: float 3s linear infinite;
+}
+
+.home .content h3 {
+    font-size: 5rem;
+    color: white;
+}
+.redColor {
+    color:red;
+}
+.home .content p {
+    font-size: 1.7rem;
+    color: rgb(230, 233, 16);
+    padding: 1rem 0;
+}
+.orderbutton{
+    border-radius: 50%;
+    cursor: default;
+    background-color: rgb(234, 201, 14);
+    height: 60px;
+    width: 150px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 220%;
+}
+.orderbutton:hover{
+    color: rgb(16, 52, 52);
+    text-shadow: 200%;
+}
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
